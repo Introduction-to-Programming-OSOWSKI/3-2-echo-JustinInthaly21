@@ -1,5 +1,9 @@
 def echo(x, y):
-    for i in range (x, y):
-     print(i)
+   
+   t = "hello"
+   
+   for i in range (0, 5):
+     t = "hello"
+   return "hello"
 
 print (echo("hello", 5))
