@@ -1,9 +1,10 @@
 def echo(x, y):
    
-   t = "hello"
+   t = x
    
-   for i in range (0, 5):
-     t = "hello"
-   return "hello"
+   for i in range (0, y):
+     t = t * y
 
-print (echo("hello", 5))
+   return t
+
+print (echo("yo", 5))
